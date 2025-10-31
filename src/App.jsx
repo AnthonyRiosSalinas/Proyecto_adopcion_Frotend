@@ -8,9 +8,9 @@ import Dona from './Paginas/Dona'
 
 function App() {
   return (
-    <>
+    <div class= "font-sans min-h-screen">
       <Navbar/>
-        <main>
+        <main className="pt-0">
           <Routes>
               <Route path="/" element={<Inicio/>} />
               <Route path="Adoptamigos" element={<Adoptamigos/>} />
@@ -19,7 +19,7 @@ function App() {
               <Route path="Dona" element={<Dona/>} />
           </Routes> 
         </main>
-    </>
+    </div>
   )
 }
 
