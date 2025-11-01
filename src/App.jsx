@@ -5,10 +5,19 @@ import Adoptamigos from './Paginas/Adoptamigos'
 import Nosotros from './Paginas/Nosotros'
 import Apadrina from './Paginas/Apadrina'
 import Dona from './Paginas/Dona'
+import Fondo from './assets/Fondo_Adopcion.png'
 
 function App() {
   return (
-    <div class= "font-sans min-h-screen">
+    <div className="font-Poppins min-h-screen" 
+    style={{
+        backgroundColor: '#FFFFFF', 
+        backgroundImage: `url(${Fondo})`,
+        backgroundRepeat: 'no-repeat', 
+        backgroundPosition: 'center', 
+        backgroundSize: 'cover',
+    }}
+>
       <Navbar/>
         <main className="pt-0">
           <Routes>

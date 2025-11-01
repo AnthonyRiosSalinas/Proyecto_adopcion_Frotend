@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 
 export default function Navbar(){
     return(
-        <nav className="sticky top-0 z-50 bg-[#CECECE] p-4 shadow-lg flex justify-between items-center px-6 lg:px-12">
+        <nav className="sticky top-0 z-50 bg-[#CECECE] p-0 shadow-lg flex justify-between items-center px-6 lg:px-12">
             <Link to="/" className="flex items-center">
                 <img 
                     src={logo} alt="NOMADD Logo" className="h-20 w-auto"
